@@ -6,11 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="website2" href="colums.html">
 </head>
 <body>
-    
-    <div class ="alert alert-primary" role="alert">
-        It works!
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/css/bootstrap.css"></script>
+    <div class="container-fluid" style="padding: 0px 0px 5px 0px;">
+        <div class="row">
+            <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">World Cup!</a>
+            <button class="navbar-toggler" type="button" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="colums.html"> More Info</a>
+                 
+                </li>
+                </ul>
+            </div>
+            
+        </nav>
+            </div>
+        </div>
+    </div>
+
+        <section>
+            <h1 style="text-align:center"> World Cup group stages</h1>
+                <p style="font-size: 17px;"> This World Cup will be held in Qatar during November and December. Millons of people tune in all over the world to watch this tournament. Many people
+                this the biggest tournament. 32 countries will battle it out during this tournament, hoping to make their country proud and lift the World Cup. With this 
+                tournament coming closer and closer this is the offical groups of the World Cup!
+                </p>
+        </section>
+
+
+    <div class="container-fluid" style="margin-top:10px">
+        <div class="row">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                  <tr>
+                    <th >Group A</th>
+                    <th scope="col">Group B</th>
+                    <th scope="col">Group C</th>
+                    <th scope="col">Group D</th>
+                    <th scope="col">Group E</th>
+                    <th scope="col">Group F</th>
+                    <th >Group G</th>
+                    <th >Group H</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">Qatar</td>
+                    <td>England</td>
+                    <td>Argentina</td>
+                    <td>France</td>
+                    <td>Spain</td>
+                    <td>Belgium</td>
+                    <td>Brazil</td>
+                    <td>Portugal</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Ecuador</td>
+                    <td>Iran</td>
+                    <td>Saudi Arabia</td>
+                    <td>Peru</td>
+                    <td>CRC/NZL</td>
+                    <td>Canada</td>
+                    <td>Serbia</td>
+                    <td>Ghana</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Senegal</td>
+                    <td >USA</td>
+                    <td>Mexico</td>
+                    <td>Denmark</td>
+                    <td>Germany</td>
+                    <td>Morocco</td>
+                    <td>Switzerland</td>
+                    <td>Uruguay</td>
+                  </tr>
+                  <tr>
+                    <td >Netherlands</td>
+                    <td>Urk/Sco/Wal</td>
+                    <td>Poland</td>
+                    <td>Tunisia</td>
+                    <td>Japan</td>
+                    <td>Croatia</td>
+                    <td>Cameroon</td>
+                    <td>South Korea</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-dark">
+    <div class="panel-heading text-center">
+        <h1>Make your vote!</h1>
+    </div>
+    <div class="panel-body">
+        <form>
+            <div class="form-group">
+                <label for="firstName"> First Name</label>
+                <input type="text" class="form-control" id="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName">
+
+            </div>
+            <div class="form-group">
+                <label for="winner">WC Winner</label>
+                <input type="text" class="form-control" id="winner">
+
+            </div>
+            <br>
+           <input type="submit" class="btn btn-dark">
+
+
+        </form>
+
+    </div>
+
+
+    </div>
+    </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
